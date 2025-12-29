@@ -7,13 +7,10 @@ Sistem manajemen data film bioskop berbasis terminal yang diimplementasikan meng
 
 ## 🚀 Fitur Utama
 
-- **Manajemen Film (Parent):** - Tambah data film baru (Insert Last).
-  - Hapus data film beserta seluruh jadwal tayangnya (Cascading Delete).
-  - Tampilkan seluruh koleksi film.
-- **Manajemen Jadwal (Child):** - Menambahkan jam tayang dan studio ke film spesifik menggunakan ID.
-  - Menghapus jadwal tertentu tanpa menghapus data film.
-- **Pencarian Pintar (Smart Search):** - Cari film berdasarkan **Genre** dengan fitur *substring search* (mencari potongan kata).
-- **Analisis Data:** - Menemukan film dengan durasi terpanjang dan terpendek secara otomatis.
+- **Manajemen Film (Parent):** Tambah data film baru (Insert Last), hapus data film beserta seluruh jadwal tayangnya (Cascading Delete), dan tampilkan seluruh koleksi film.
+- **Manajemen Jadwal (Child):** Menambahkan jam tayang dan studio ke film spesifik menggunakan ID, serta menghapus jadwal tertentu tanpa menghapus data film.
+- **Pencarian Pintar (Smart Search):** Cari film berdasarkan **Genre** dengan fitur *substring search* (mencari potongan kata).
+- **Analisis Data:** Menemukan film dengan durasi terpanjang dan terpendek secara otomatis.
 
 ---
 
@@ -23,8 +20,6 @@ Program ini menggunakan konsep **Multi-Linked List** dengan variasi Parent-Child
 1. **Parent (`elmFilm`):** Menyimpan atribut ID, Judul, Genre, dan Durasi.
 2. **Child (`elmJam`):** Menyimpan atribut Jam Tayang dan Nama Studio.
 3. **Pointer Relasi:** Setiap node Film memiliki pointer `firstJam` yang menghubungkannya ke daftar jam tayang yang dimiliki film tersebut.
-
-
 
 ---
 
