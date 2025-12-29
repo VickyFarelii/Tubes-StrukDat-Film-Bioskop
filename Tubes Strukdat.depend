@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1766970830 source:c:\users\acer\documents\struktur data\tubes\tubes strukdat\film.cpp
+	"Film.h"
+
+1766926897 c:\users\acer\documents\struktur data\tubes\tubes strukdat\film.h
+	<iostream>
+	<string>
+
+1766970853 source:c:\users\acer\documents\struktur data\tubes\tubes strukdat\main.cpp
+	<iostream>
+	"Film.h"
+
