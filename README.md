@@ -1,5 +1,8 @@
 # 🎬 Cinema Management System (Multi-Linked List)
 **Tugas Besar Struktur Data - Kelompok 17**
+## 👥 Anggota Kelompok
+* Vicky Fareli - 103012400414
+* Muh Akmal Okhi Ananta - 103012400408
 
 Sistem manajemen data film bioskop berbasis terminal yang diimplementasikan menggunakan struktur data **Multi-Linked List (MLL)** dengan relasi **1-N (One-to-Many)**. Program ini memungkinkan pengelolaan data film sebagai *Parent* dan jadwal tayang sebagai *Child*.
 
@@ -31,8 +34,4 @@ Program ini menggunakan konsep **Multi-Linked List** dengan variasi Parent-Child
 
 ---
 
-## 💻 Cara Menjalankan
 
-1. **Kompilasi Program:**
-   ```bash
-   g++ -o bioskop_app main.cpp Film.cpp
