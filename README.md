@@ -33,7 +33,6 @@ Program ini menggunakan konsep **Multi-Linked List** dengan variasi Parent-Child
 
 ## 💻 Cara Menjalankan
 
-1. **Clone Repositori:**
+1. **Kompilasi Program:**
    ```bash
-   git clone [https://github.com/username-kamu/nama-repo.git](https://github.com/username-kamu/nama-repo.git)
-   cd nama-repo
+   g++ -o bioskop_app main.cpp Film.cpp
